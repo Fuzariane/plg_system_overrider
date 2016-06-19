@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.2" method="upgrade" client="site" group="system">
+  <name>plg_system_overrider</name>
+  <creationDate>05/05/2016</creationDate>
+  <author>Biromain</author>
+  <version>1.0.0</version>
+  <license>MIT</license>
+  <description>PLG_SYSTEM_OVERRIDE_XML_DESC</description>
+  <files>
+  <filename plugin="overrider">overrider.php</filename>
+  </files>
+  <languages>
+    <language tag="fr-FR">language/fr-FR/fr-FR.plg_system_overrider.ini</language>
+    <language tag="fr-FR">language/fr-FR/fr-FR.plg_system_overrider.sys.ini</language>
+    <language tag="en-US">language/en-US/en-US.plg_system_overrider.ini</language>
+    <language tag="en-US">language/en-US/en-US.plg_system_overrider.sys.ini</language>
+  </languages>
+  <config>
+    <fields name="params"></fields>
+  </config>
+  <updateservers>
+    <server type="extension" priority="1" name="System - Override">https://cdn.rawgit.com/Biromain/plg_system_overrider/tree/updater/updater.xml</server>
+  </updateservers>
+</extension>
