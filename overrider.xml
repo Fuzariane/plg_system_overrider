@@ -5,7 +5,7 @@
   <author>Biromain</author>
   <version>1.0.0</version>
   <license>MIT</license>
-  <description>PLG_SYSTEM_OVERRIDE_XML_DESC</description>
+  <description>PLG_SYSTEM_OVERRIDER_XML_DESC</description>
   <files>
   <filename plugin="overrider">overrider.php</filename>
   </files>
