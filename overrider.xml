@@ -19,6 +19,6 @@
     <fields name="params"></fields>
   </config>
   <updateservers>
-    <server type="extension" priority="1" name="System - Override">https://cdn.rawgit.com/Biromain/plg_system_overrider/tree/updater/updater.xml</server>
+    <server type="extension" priority="1" name="System - Override">https://cdn.rawgit.com/Biromain/plg_system_overrider/updater/updater.xml</server>
   </updateservers>
 </extension>
